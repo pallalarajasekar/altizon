@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_altizon_1695900215736-push-trigger-input-set
+  identifier: Build_altizon_1695900215736pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: sample
+  pipeline:
+    identifier: Build_altizon_1695900215736
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
