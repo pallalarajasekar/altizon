@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_altizon_1695900215736-pr-trigger-input-set
+  identifier: Build_altizon_1695900215736prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: sample
+  pipeline:
+    identifier: Build_altizon_1695900215736
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
